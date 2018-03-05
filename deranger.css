@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.name {
+    padding: 0.3em 0;
+}
+
+.assassin {
+    font-weight: bold;
+    padding: 0.3em 0.3em;
+}
+
+.target {
+    padding: 0.3em 0.3em;
+    background-color: #c24c4c;
+    color: #fff;
+}
+
+#derangelist {
+    display: flex;
+}
+
+#derangelist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+  
+.derangementitem {
+    display: flex;
+    width: 100%; 
+}
+
+.assassin, .target {
+    flex: 1;
+}
+
+.assassin {
+    text-align: right;
+}
